@@ -1,13 +1,12 @@
 //
-//  fefu_button_light_blue.swift
+//  fefu_button_type_1.swift
 //  fefuactivity
 //
-//  Created by иван on 27.10.2021.
-//
 
+//
 import UIKit
 
-class FEFUButtonType2LightBlue: UIButton{
+class FEFUButtonType1: UIButton{
     required init?(coder: NSCoder){
         super.init(coder: coder)
         
@@ -16,7 +15,7 @@ class FEFUButtonType2LightBlue: UIButton{
     
     private func commonInit(){
         self.layer.cornerRadius = 12
-        self.backgroundColor = UIColor.systemBlue;
+        self.backgroundColor = UIColor(named: "ButtonType1Color" )
     }
 }
 
